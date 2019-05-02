@@ -15,8 +15,10 @@ modalidad = int(modalidad)
 
 if (modalidad == 1):
 	ciclos = 10
+	costo_c *= 10 
 else: 
-	ciclos = 8 
+	ciclos = 8
+	costo_c *= 8
 
 if(edad <= 20):
 	seguro = 100
